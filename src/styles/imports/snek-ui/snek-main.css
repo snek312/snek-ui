@@ -1,0 +1,25 @@
+/* ////////// */
+/* /// SNEK UI v 0.5*/
+/* ////////// */
+
+@import 'addons/buttons.css';
+@import 'addons/links.css';
+@import 'addons/modules.css';
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ui-separator {
+    width: 80%;
+    border-top: 1px solid #999;
+    margin: 10px 0;
+}
+
+.ui-separator-horizontal {
+    height: 80%;
+    border-left: 1px solid #999;
+    margin: 3px 10px;
+}
