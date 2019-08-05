@@ -1,0 +1,25 @@
+.button-border {
+    color: #eed;
+    border-color: #eee;
+}
+
+.border--fill:hover {
+    background: #eed;
+    border-color: #eed;
+    text-shadow: none;
+}
+
+.item--button {
+    color: #eed;
+    text-shadow: 1px 1px 10px black;
+    transition: .2s;
+}
+
+.item--button:hover {
+    background: #9b9b9b41;
+}
+
+.ui-list_item--navbar {
+    color: #222222;
+    text-shadow: none;
+}

@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
+import Header from './Header'
 
-export default function index() {
-    return (
-        <div>
-            Landing
-        </div>
-    )
+import * as CONST from '../../../constants/static'
+
+export default class index extends Component {
+    render() {
+        return (
+            <div>
+                <Header version={CONST.VERSION} />
+            </div>
+        )
+    }
 }
+

@@ -1,0 +1,128 @@
+.doc-navbar {
+    width: 100%;
+    justify-content: center;
+}
+
+.doc-navbar>div {
+    flex-direction: column;
+    align-items: center;
+}
+
+.doc-fixed {
+    position: fixed;
+}
+
+.doc-scroll {
+    background: #eee;
+    border-bottom: 1px solid #4b4b4b;
+    box-shadow: 0px 0px 1px 0px #222222;
+    transition: 0.5s;
+    height: 30px;
+    z-index: 40;
+}
+
+.doc-header_background {
+    background: url(../../img/P1010799-m.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    color: #eed;
+    text-shadow: 1px 1px 8px #222222;
+    padding-top: 20px;
+}
+
+.doc-header_background>h2 {
+    margin-top: 10px;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.doc-header_background>h4 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.doc-header_div {
+    margin-top: 80px;
+}
+
+.doc-version {
+    background: #222222;
+    color: #eed;
+    width: auto;
+    margin-top: 15px;
+    padding: 3px 4px;
+    text-align: center;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+
+.doc-button_up {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    right: 45px;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #2222221f;
+    color: #eed;
+    font-size: 2.5em;
+    transition: .3s;
+}
+
+.doc-button_up:hover {
+    background: #4b4b4b;
+}
+
+.doc-button_up--active {
+    width: 55px;
+    height: 55px;
+    background: #222222;
+}
+
+/* /// Tablet Media */
+
+@media screen and (min-width: 426px) {
+    .doc-header_background {
+        background: url(../../img/P1010799-hd.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+    }
+}
+
+/* /// PC Media */
+
+@media screen and (min-width: 769px) {
+    .doc-header_background {
+        height: 800px;
+    }
+
+    .doc-header_background>h2 {
+        font-size: 3.5em;
+    }
+
+    .doc-navbar {
+        height: 90px;
+        transition: .5s;
+    }
+
+    .doc-navbar>div {
+        width: 70%;
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .doc-scroll {
+        height: 55px;
+        padding-bottom: 0px;
+    }
+}

@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function index() {
+export default function NoPage() {
     return (
         <main>
-            Terms
+            Not found
         </main>
     )
 }
