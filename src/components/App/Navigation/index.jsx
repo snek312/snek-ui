@@ -5,7 +5,6 @@ export default class index extends Component {
 
 
     navigationScroll = () => {
-        console.log('witam')
         const
             navbarElement = document.getElementById('id-navbar'),
             listElements = document.getElementsByClassName('ui-list_item'),

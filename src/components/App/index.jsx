@@ -1,6 +1,7 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router, //Gh-pages
+    // BrowserRouter as Router, //Other hosting
     Route
 } from 'react-router-dom'
 
