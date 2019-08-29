@@ -38,3 +38,16 @@ a {
     background-size: 95%;
     transition: .5s;
 }
+
+.doc-terms {
+    padding-top: 100px;
+    padding-left: 15px;
+}
+
+.doc-terms h1 ,h2 {
+    padding: 10px 7px;
+}
+
+.doc-terms p {
+    padding: 15px;
+}
