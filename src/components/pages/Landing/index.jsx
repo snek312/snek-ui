@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Header from './Header'
+import Main from './Main'
 
 import * as CONST from '../../../constants/static'
 
@@ -8,6 +9,7 @@ export default class index extends Component {
         return (
             <div>
                 <Header version={CONST.VERSION} />
+                <Main />
             </div>
         )
     }
