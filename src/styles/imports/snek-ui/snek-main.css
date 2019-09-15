@@ -2,6 +2,11 @@
 /* /// SNEK UI v 0.5*/
 /* ////////// */
 
+/* /// Themes*/
+@import 'themes/snek-themes.css';
+
+/* ////////// */
+
 @import 'addons/buttons.css';
 @import 'addons/links.css';
 @import 'addons/modules.css';

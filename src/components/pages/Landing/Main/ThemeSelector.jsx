@@ -1,6 +1,28 @@
 import React, { Component } from 'react'
 
+const INITIAL_STATE = {
+    dropdownActive: false,
+    stylePath: './themes/ui-default.css'
+}
+
+const DropdownMenu = () => (
+    <>
+        <div id="id-dropdown_list" class="dropdown--content dropdown--active">
+            <a id="id-theme1" href="#void">theme 1</a>
+            <a id="id-theme2" href="#void">theme 2</a>
+            <a id="id-theme3" href="#void">theme 3</a>
+        </div>
+    </>
+)
+
 export default class ThemeSelector extends Component {
+    constructor(props) {
+        super(props)
+
+        this.state = { ...INITIAL_STATE }
+    }
+
+
     render() {
         return (
             <section className='section-theme flex-box'>
@@ -13,14 +35,18 @@ export default class ThemeSelector extends Component {
                 <div class="theme-container flex-box">
                     <div class="container-box flex-box">
                         <div class="container-box--top">
-                            <div id="id-dropdown" class="ui-dropdown ui-button button-color ">
+                            <div id="id-dropdown" class="ui-dropdown ui-button button-color " onClick={() => {
+                                this.setState({
+                                    dropdownActive: !this.state.dropdownActive,
+                                })
+                            }}>
                                 <span>select theme <span id="id-drop_icon" class="dropdown--icon">▾</span>
                                 </span>
-                                <div id="id-dropdown_list" class="dropdown--content">
-                                    <a id="id-theme1" href="#void">theme 1</a>
-                                    <a id="id-theme2" href="#void">theme 2</a>
-                                    <a id="id-theme3" href="#void">theme 3</a>
-                                </div>
+                                {this.state.dropdownActive
+                                    ? (
+                                        <DropdownMenu />
+                                    )
+                                    : null}
                             </div>
                         </div>
                         <div class="container-box--bot">
