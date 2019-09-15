@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "daedd8399adbb72a1e9d2be7f49f839c",
+    "revision": "937ff82f8be3c3094253e963b4cf7856",
     "url": "/snek-ui/index.html"
   },
   {
-    "revision": "13dc50fc4bf1b7134ce8",
-    "url": "/snek-ui/static/css/main.44739be0.chunk.css"
+    "revision": "8a12cae36f47808eb0cd",
+    "url": "/snek-ui/static/css/main.8b3d8a51.chunk.css"
   },
   {
-    "revision": "c7e68bb94aa3982535bd",
-    "url": "/snek-ui/static/js/2.5ba3f409.chunk.js"
+    "revision": "580df70ae5e35255c8c6",
+    "url": "/snek-ui/static/js/2.1eabab1d.chunk.js"
   },
   {
-    "revision": "13dc50fc4bf1b7134ce8",
-    "url": "/snek-ui/static/js/main.0d0b58c9.chunk.js"
+    "revision": "8a12cae36f47808eb0cd",
+    "url": "/snek-ui/static/js/main.d12e4858.chunk.js"
   },
   {
     "revision": "08cefb84b66305d38279",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "662d72190211d95944dd36b69ab20dac",
     "url": "/snek-ui/static/media/P1010799-m.662d7219.jpg"
+  },
+  {
+    "revision": "7af171ba6e66aa71dd5c2ff4e830ed11",
+    "url": "/snek-ui/static/media/mobile-devices-2017980_640.7af171ba.png"
   },
   {
     "revision": "6e8786a8b9f690ab6043c78ea69327a4",
